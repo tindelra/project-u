@@ -124,12 +124,12 @@ var hideAlert = function () {
 // Show Alert
 var showAlert = function (message, status, delay = 3000) {
     if (status != '') {
-        var $alert = $('#alert');
-        $alert.removeClass();
-        $alert.addClass('alert show ' + status);
-        $alert.find('.alert-text').text(message);
+        // var $alert = $('#alert');
+        // $alert.removeClass();
+        // $alert.addClass('alert show ' + status);
+        // $alert.find('.alert-text').text(message);
 
-        if (delay != null) setTimeout(hideAlert, delay);
+        // if (delay != null) setTimeout(hideAlert, delay);
     }
 }
 

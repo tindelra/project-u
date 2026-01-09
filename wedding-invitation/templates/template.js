@@ -129,10 +129,10 @@ function hideAlert() {
 // ---------- Show Alert (Function) --------------------------------------------------
 function showAlert(message, status) {
     if (status != '') {
-        $alert.removeClass();     // Remove All Class
-        $alert.addClass('alert show ' + status);
-        $alertText.text(message);
-        setTimeout(hideAlert, 3000);
+        // $alert.removeClass();     // Remove All Class
+        // $alert.addClass('alert show ' + status);
+        // $alertText.text(message);
+        // setTimeout(hideAlert, 3000);
     }
 }
 
