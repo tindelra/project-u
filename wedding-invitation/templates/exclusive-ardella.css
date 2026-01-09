@@ -7495,10 +7495,12 @@ section.footer .footer-inner .footer-logo path {
 }
 
 @media (max-width: 960px) {
-    .primary-pane .bg-orn-video {
+
+    .primary-pane .bg-orn-video,
+    .top-cover .bg-orn-video {
         /* width: 100% !important;
         height: 100% !important; */
-        object-fit: contain !important;
+        object-fit: cover !important;
         transform: none !important;
     }
 }
