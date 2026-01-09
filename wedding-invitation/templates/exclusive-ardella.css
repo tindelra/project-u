@@ -2279,7 +2279,7 @@ section.video-gallery .inner .video-outer .video-inner>.title>p {
 .rsvp-wrap {
     position: relative;
     overflow: hidden;
-    padding: 0% 0px 10%;
+    padding: 0px 0px 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -2287,7 +2287,7 @@ section.video-gallery .inner .video-outer .video-inner>.title>p {
 
 .rsvp-inner {
     position: relative;
-    padding: 5% 20% 0;
+    padding: 0% 20% 0;
 }
 
 /* Head */
@@ -3923,15 +3923,6 @@ section.live-streaming .inner .head p {
 
 /* ==============================
         RSVP
-============================== */
-.rsvp-wrap {
-    position: relative;
-    overflow: hidden;
-    padding: 0% 0px 10%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 
 /* Head */
 .rsvp-head {
@@ -5405,8 +5396,8 @@ section.footer .footer-inner .footer-logo path {
 @media only screen and (max-width: 960px) {
     section.footer .footer-inner.flex-column {
         flex-direction: column;
-        padding-top: 80px;
-        padding-bottom: 150px;
+        padding-top: 0px;
+        padding-bottom: 67px;
     }
 
     section.footer .footer-inner.flex-column p {
@@ -7258,11 +7249,6 @@ section.footer .footer-inner .footer-logo path {
 /* =============================
     RSVP SECTION STYLING
 ============================= */
-.rsvp-wrap {
-    position: relative;
-    padding: 60px 0;
-}
-
 .rsvp-head {
     text-align: center;
     margin-bottom: 30px;
@@ -7467,11 +7453,44 @@ section.footer .footer-inner .footer-logo path {
 
 @media (max-width: 960px) {
     .rsvp-body-wrapper {
-        padding: 30px 20px;
+        padding: 30px 20px 0px;
     }
 
     .rsvp-title {
         font-size: calc(var(--heading-size) - 12px);
+        margin-top: 0px !important;
+    }
+
+    .rsvp-head {
+        margin-bottom: 20px !important;
+    }
+
+    .rsvp-action .btn-next {
+        margin-top: 0px;
+    }
+
+    .rsvp-action .btn-submit {
+        margin-top: 0px;
+    }
+
+    .live-streaming .preview {
+        width: 100% !important;
+        height: auto !important;
+        aspect-ratio: 16 / 9;
+    }
+
+    .live-streaming .preview img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover;
+    }
+
+    .footnote-wrap {
+        padding-bottom: 0px !important;
+    }
+
+    .footer {
+        padding-top: 0px !important;
     }
 }
 
@@ -7507,10 +7526,6 @@ section.footer .footer-inner .footer-logo path {
     margin-left: 5px;
     display: block !important;
     line-height: 1;
-}
-
-.rsvp-inner {
-    overflow: visible;
 }
 
 /* =============================
