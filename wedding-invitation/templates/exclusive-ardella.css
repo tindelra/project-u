@@ -5397,7 +5397,7 @@ section.footer .footer-inner .footer-logo path {
     section.footer .footer-inner.flex-column {
         flex-direction: column;
         padding-top: 0px;
-        padding-bottom: 67px;
+        padding-bottom: 0px;
     }
 
     section.footer .footer-inner.flex-column p {
